@@ -26,6 +26,10 @@ export class HomeComponent {
     validators: [ Validators.required ]
   })
 
+  saveTack() {
+    
+  }
+
   changeHandler() {
     if (this.newTaskCtl.valid) {
       const newTask = this.newTaskCtl.value
